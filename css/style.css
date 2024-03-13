@@ -1,0 +1,14 @@
+.title-p {
+    text-align: center;
+    background-color: blueviolet;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;   
+}
+.header-wraper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
