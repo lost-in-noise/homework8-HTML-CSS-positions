@@ -123,3 +123,83 @@ header {
   margin: 0 auto;
   display: block;
 }
+
+.section2-wraper {
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 20px;
+  width: 820px;
+  height: 500px;
+  position: relative;
+}
+
+.section2 {
+  background-color: rgb(108, 156, 167);
+  padding: 20px 0 50px 0;
+  width: 100%;
+}
+
+.section2-wraper .card-box1,
+.section2-wraper .card-box3,
+.section2-wraper .card-box5,
+.section2-wraper .card-box7 {
+  background-color: rgb(36, 36, 92);
+  width: 150px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.section2-wraper .card-box2,
+.section2-wraper .card-box4,
+.section2-wraper .card-box6 {
+  background-color: rgb(211, 238, 103);
+  width: 150px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 50px;
+}
+.card-box1 {
+  position: absolute;
+  z-index: 20;
+}
+.card-box2 {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  z-index: 19;
+}
+.card-box3 {
+  position: absolute;
+  top: 100px;
+  left: 220px;
+  z-index: 18;
+}
+.card-box4 {
+  position: absolute;
+  top: 150px;
+  left: 330px;
+  z-index: 17;
+}
+.card-box5 {
+  position: absolute;
+  top: 100px;
+  right: 220px;
+  z-index: 16;
+}
+.card-box6 {
+  position: absolute;
+  top: 50px;
+  right: 110px;
+  z-index: 15;
+}
+.card-box7 {
+  position: absolute;
+  z-index: 14;
+  top: 20px;
+  right: 20px;
+}
