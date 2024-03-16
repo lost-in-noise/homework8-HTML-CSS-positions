@@ -17,7 +17,12 @@
 header {
   height: 50px;
 }
-
+.container-sticky {
+  position: sticky;
+  top: 50px;
+  height: 100vh;
+  z-index: 50;
+}
 .section1 {
   background-color: rgb(21, 91, 109);
   margin-top: 50px;
@@ -137,6 +142,9 @@ header {
   background-color: rgb(108, 156, 167);
   padding: 20px 0 50px 0;
   width: 100%;
+  z-index: 55;
+  height: 95vh;
+  position: relative;
 }
 
 .section2-wraper .card-box1,
